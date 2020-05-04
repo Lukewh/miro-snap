@@ -1,13 +1,7 @@
-<a href="https://snapcraft.io/miro">
-  <img alt="miro" src="https://snapcraft.io/miro/badge.svg" />
-</a>
-<a href="https://snapcraft.io/miro">
-  <img alt="miro" src="https://snapcraft.io/miro/trending.svg?name=0" />
-</a>
+[![miro](https://snapcraft.io/miro/badge.svg)](https://snapcraft.io/miro)
+[![miro](https://snapcraft.io/miro/trending.svg?name=0)](https://snapcraft.io/miro)
 
 * Miro snap
 Packaging Miro as an Electron Snap
 
-<a href="https://snapcraft.io/miro">
-  <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
-</a>
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/miro)
