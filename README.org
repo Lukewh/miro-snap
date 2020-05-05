@@ -1,3 +1,5 @@
+[[https://snapcraft.io/miro][[[https://snapcraft.io/miro/badge.svg]]]
+
 [![miro](https://snapcraft.io/miro/badge.svg)](https://snapcraft.io/miro)
 [![miro](https://snapcraft.io/miro/trending.svg?name=0)](https://snapcraft.io/miro)
 
