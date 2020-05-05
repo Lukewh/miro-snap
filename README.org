@@ -1,3 +1,7 @@
+#+MACRO: imglink @@html:<a href="$1"><img src="$2"></a>""
+
+{{{imglnk(https://snapcraft.io/miro, https://snapcraft.io/miro/badge.svg)}}}
+
 [[https://snapcraft.io/miro][[[https://snapcraft.io/miro/badge.svg]]]
 
 [![miro](https://snapcraft.io/miro/badge.svg)](https://snapcraft.io/miro)
