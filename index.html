@@ -23,7 +23,10 @@
       webview.addEventListener("dom-ready", (e) => {
         document.querySelector(".loader").style.opacity = 0;
         webview.focus();
-        webview.addEventListener("new-window", (e) => {
+      });
+
+      webview.addEventListener("new-window", (e) => {
+          console.log(e.url);
           if (e.url.indexOf("http:") === 0 || e.url.indexOf("https:") === 0) {
             if (e.url.indexOf("miro.com") === -1) {
               shell.openExternal(e.url);
@@ -32,9 +35,6 @@
             }
           }
         });
-      });
-
-      
     }
     </script>
   <body>
