@@ -1,21 +1,6 @@
-const { app, BrowserWindow, session, shell } = require("electron");
+const { app, BrowserWindow, shell } = require("electron");
 
 let mainWindow;
-
-const loadPlaceholder = () => {
-  mainWindow
-    .loadURL(`file://${__dirname}/index.html`)
-    .then(() => {
-      mainWindow.webContents.session.setPermissionRequestHandler(
-        (webContents, permission, callback, details) => {
-          console.log(webContents, permission, callback, details);
-        }
-      );
-    })
-    .catch((e) => {
-      console.error(e);
-    });
-};
 
 const createWindow = () => {
   mainWindow = new BrowserWindow({
